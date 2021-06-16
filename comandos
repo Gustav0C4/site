@@ -1,0 +1,28 @@
+Cadastro compra 
+
+INSERT INTO compra (id,modelo, marca, ano, placa, cor, chassi, data, valor) VALUES (null, "modelo", "ano", "placa", "cor", "chassi", "data", "valor", null);
+
+Cadastro venda 
+
+INSERT INTO venda (id,placa, data, valor, nome) VALUES (null,"chassi_veiculo", "placa","data", "valor", "nome");
+
+Lista de veiculos
+
+SELECT marca,modelo,ano FROM compra INNER JOIN venda on compra.chassi = venda.chassi_veiculo
+
+lista de veiculos disponiveis para venda 
+
+SELECT marca, modelo, ano FROM compra
+
+veiculos vendidos 
+
+SELECT marca, modelo, ano FROM venda
+
+valor total compra
+
+SELECT SUM(valor) FROM compra  
+
+valor total venda 
+
+SELECT SUM(valor) FROM compra  
+
