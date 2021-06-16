@@ -1,9 +1,8 @@
-Nesse Projeto será feito 2 partes que é, 
-o layout e apenas os codigos sql, <br>
-não será feito a compilação do código com o layout pois não conheço muito bem.
+Nesse Projeto será feito em partes que é layout e uma pagina de codigos,
+o layout é composto por 4 paginas, 
+tela inicial - index
+cadastro de compra de veiculo - cadastro 
+cadastro de venda - venda 
+relatorio - todas as listagem que precisa
 
-1  Tela inicial
-2  Cadastro da compra do veiculo <br>
-2  Codigo da compra <br>
-3  Codigo da venda(Sem a comissão)- motivo falta de conhecimento<br>
-4  Relatorios 
+Alguns codigos não foram anexado como o da comissão e o valordo prejuizo e lucro, por falta de conhecimento.
